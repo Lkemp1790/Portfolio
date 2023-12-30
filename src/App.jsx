@@ -1,7 +1,14 @@
+import React from "react";
+import "./app.scss";
+import Navbar from "./components/navbar/Navbar";
+import Test from "./test";
+
 const App = () => {
-  return 
+  return (
     <div>
-      <section>Hero</section>
+      <section>
+        <Navbar />
+      </section>
       <section>Parallax</section>
       <section>Services</section>
       <section>Parallax</section>
@@ -9,7 +16,9 @@ const App = () => {
       <section>Portfolio2</section>
       <section>Portfolio3</section>
       <section>Contact</section>
-    </div>;
+
+    </div>
+    )
 };
 
 export default App;
